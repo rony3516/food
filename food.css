@@ -1,0 +1,140 @@
+body{
+    
+      box-sizing: border-box;
+      margin: 0%;
+      padding: 0%;
+      position: relative;
+}
+/*--------------------------------------------------navar work start*/
+#navbtn{
+      border: 1px solid white;
+}
+
+.nav-item .nav-link{
+             color: aliceblue;
+             margin-top: 10px;
+             font-weight: bold;
+             font-size: 17px;
+}
+.nav-item .nav-link:hover{
+                color: rgb(230, 235, 225);
+                background-color: black;
+                border-radius: 5px;
+}
+.mainnav{
+      background-color: blueviolet;
+      transition: background,2s;
+}
+
+#mainsec {
+      position: relative;
+      background: #312d2f;
+      overflow: hidden;
+      
+  }
+  #mainsec:before{
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 300px;
+      z-index: 1;
+      opacity: 0.2;
+      background-image: url(imge/site.jpg);
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      -ms-background-size: cover;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover;
+  }
+
+/*--------------------------------------------------navar work end*/
+#choose-box{
+         text-align: center;
+         padding: 5px;
+}
+#choose-box button{
+          background-color: rgb(230, 158, 25);
+          color: white;
+          border: none;
+}
+#choose-box h1{
+             font-weight: bold;
+             color: rgb(94, 37, 37);
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#btn-order{
+         background-color:red;
+         
+         color: aliceblue;
+         text-align: center;
+       
+        
+}
+#btn-order:hover{
+ background-color: rgb(21, 21, 24);
+ transition:background,1s ;
+ 
+ 
+
+}
+
+
+#buager{
+      text-align: center;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+     
+     margin-top: 10px;
+}
+#Up-coming{
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+     width: 100%;
+    height: auto;
+}   
+#text-box{
+      background-image: linear-gradient(to right, rgb(161, 154, 154) , rgb(112, 112, 20));
+      color: aliceblue;
+}
+
+/* up coming Events carosusel work start */
+#discovertext h4{
+       font-weight: bold;
+       color: crimson;
+       
+}
+#discovertext p{
+        color: rgb(207, 135, 2);
+        font-weight: 300px;
+}
+/*--------------------------------footer section work start------------------------*/
+footer{
+      background-image: linear-gradient(to right, rgb(33, 33, 34) , rgb(104, 104, 2));
+}
+#footer_icon button{
+      background-image: linear-gradient(to right, rgb(12, 12, 12) , rgb(90, 86, 88));
+              border: none;
+              border-radius: 50%;
+}
+#footer_icon button a{
+            font-size: 25px;
+            text-decoration: none;
+            color: rgb(219, 212, 213);
+            text-shadow: 2px 2px 2px rgb(24, 22, 21);
+            
+           
+}
+#footer_icon button a:hover{
+          color: rgb(15, 90, 0);
+          transition: color, 1s;
+          
+}
+
+
+
+
